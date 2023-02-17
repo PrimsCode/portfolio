@@ -48,3 +48,10 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+.project-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

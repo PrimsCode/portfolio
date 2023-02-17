@@ -1,28 +1,27 @@
 import React from "react";
 import { Grid, Typography, Card, CardContent, IconButton} from '@mui/material';
 import { GitHub, Language } from '@mui/icons-material';
+import "../../Portfolio.css"
 
 const ProjectBlock = ({ project }) => {
 
-    const cardStyle = {
-        margin: 20
-    }
+    const cardStyle = { maxWidth:"480px", minHeight:"300px", margin: 10}
 
     return (
         <Grid container rowSpacing={2} justifyContent="center" alignItems="center" marginTop={2} padding={2}>
-            <Card>
-                <Grid container justifyContent="center" alignItems="center" >
-
-                    <Grid item xs={12}>
+            <Card style={{minHeight:"400px"}}>
+            <Grid item xs={12}>
                         <Card elevation={3} style={{ backgroundColor: "#C6CBDA" }}>
                             <Typography variant="h6" component="h6">#{project.id} {project.title}</Typography>
                         </Card>
                     </Grid>
 
+                <Grid container className="project-block" >
+
                     <Grid item xs={12} sm={12} md={6}>
-                        <Card>
+                        <Card style={cardStyle}>
                             {project.video ?
-                                <video width="500" controls="controls">
+                                <video width="450" controls="controls">
                                     <source src={project.video} type="video/mp4">
                                     </source>
                                 </video>

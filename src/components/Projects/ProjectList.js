@@ -7,7 +7,7 @@ import "../../Portfolio.css"
 const ProjectList = (props) => {
     return (
         <Grid container align="center" className="section-projects" id="project-list">
-            <Grid item xs={12} style={{ marginTop: "200px" }}>
+            <Grid item xs={12} style={{ marginTop: "150px" }}>
                 <Typography variant="h2" style={{ marginTop: "30px" }}>Projects</Typography>
                 <Button id="linkButton" href={props.resume} target="_blank" rel="noreferrer" variant="contained" color="primary">Download Resume</Button>
             </Grid>

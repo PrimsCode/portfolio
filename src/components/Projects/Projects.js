@@ -12,7 +12,7 @@ const projects = [
         ],
         stack: "JavaScript, Bootstrap, Sass, SQLAlchemy, PostgreSQL, Python, Flask, Insomnia, Git, VSCode",
         gitHub: "https://github.com/PrimsCode/whats-for-dinner",
-        link: "https://pbj-whats-for-dinner-app.herokuapp.com/",
+        link: null,
         img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
         video: "https://drive.google.com/uc?export=download&id=1QXwWBvAbduSfGBQiJBdqnyOmpDJyt5Os",
     },
@@ -26,7 +26,7 @@ const projects = [
             "Tested, troubleshot, and debugged API functionality in Postman and Intellij until project requirements were achieved."
         ],
         stack: "Java, SpringBoot, JPA, PostgreSQL, PGAdmin, Postman, Git, Eclipse, Intellij, Maven",
-        gitHub: "https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-8-team-3",
+        gitHub: "https://github.com/PrimsCode/TwitType",
         link: null,
         img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
         video: null,

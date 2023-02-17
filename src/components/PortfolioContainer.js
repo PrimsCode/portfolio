@@ -5,7 +5,7 @@ import Header from "./Home/Header"
 
 const PortfolioContainer = () => {
     const [primaData, setPrimaData] = useState("")
-    const resumeUrl = "https://drive.google.com/file/d/13vw6nMMYAdftRAe-vfwQMkZxQvGwpXPm/view?usp=sharing";
+    const resumeUrl = "https://drive.google.com/file/d/1bD4_cV7Yzf4uvgcf-bGwn3jIKlavIGu2/view?usp=sharing";
 
     useEffect(() => {
         const gitApiUrl = "https://api.github.com/users/primscode";
