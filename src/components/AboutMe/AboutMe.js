@@ -23,9 +23,9 @@ const AboutMe = (props) => {
     }
 
     return (
-        <Grid container align="center" className="section" id="about-me">
+        <Grid container align="center" className="section-project" id="about-me">
 
-            <Grid item xs={12} marginTop={20}>
+            <Grid item xs={12} marginTop={20} marginBottom={5}>
                 <Typography variant="h2">About Me</Typography>
 
                 <Grid marginTop={2} style={{ maxWidth: "600px" }}>
@@ -39,7 +39,7 @@ const AboutMe = (props) => {
                 </Grid>
             </Grid>
 
-            <Grid item xs={12}>
+            <Grid item xs={12} marginBottom={5}>
                 <Paper elevation={3} style={{ maxWidth: "600px", minHeight: "400px", padding: 20 }}>
                     <Typography variant="h3" style={{ padding: 10 }}>My Skills</Typography>
                     <Grid item style={{ padding: 10 }}>
@@ -64,7 +64,7 @@ const AboutMe = (props) => {
                 </Paper>
 
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} marginBottom={5}>
                 <Typography variant="h3" style={{ maxWidth: "600px", padding: 10 }}>Have an idea for a project that I might be able to help you with?</Typography>
                 <Link to="contact-form" smooth={true} offset={100} duration={100}>
                     <Button variant="contained" color="primary" style={{ padding: 10 }}>Contact Me</Button>

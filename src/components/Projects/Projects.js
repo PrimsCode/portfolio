@@ -1,3 +1,11 @@
+import mockTwitterApiImg from "../../assets/Mock-Twitter_Api.png";
+import cookSlackImg from "../../assets/CookSlack.png";
+import cupcakeApiVid from "../../assets/cupcake-api.mp4";
+import jeopardyVid from "../../assets/jeopardy.mp4";
+import snackOrBoozeVid from "../../assets/snack-or-booze.mp4";
+import whatsForDinnerVid from "../../assets/whats-for-dinner.mp4";
+
+
 const projects = [
     {
         id: 1,
@@ -14,10 +22,25 @@ const projects = [
         gitHub: "https://github.com/PrimsCode/whats-for-dinner",
         link: null,
         img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
-        video: "https://drive.google.com/uc?export=download&id=1QXwWBvAbduSfGBQiJBdqnyOmpDJyt5Os",
+        video: whatsForDinnerVid
     },
     {
         id: 2,
+        title: "Cook Slack",
+        description: [
+            "Outlined tasks, data structures, and endpoints documentation for the project allowing transparency between the frontend team and backend team workflow.",
+            "Implemented a RESTful Web Service with various endpoints following the basic CRUD operations as well as custom requests from the frontend team.",
+            "Enforced SpringBoot, JPA, and Mapstruck to program controllers and services that handle HTTP requests, backend validation, logic, and data between the API and its database models.",
+            "Resolved issues with application functionality through debugging in Postman, IntelliJ, and VSCode."
+        ],
+        stack: "JavaScript, Material UI, React, Java, SpringBoot, JPA, PostgreSQL, PGAdmin, Postman, Git, Eclipse, Intellij, Maven",
+        gitHub: "https://github.com/PrimsCode/SlackStack",
+        link: null,
+        img: cookSlackImg,
+        video: null,
+    },
+    {
+        id: 3,
         title: "Mock Twitter Social Media API",
         description: [
             "Implemented a RESTful Web Service with various endpoints for creating, modifying, and transferring customizable user information, Twitter posts, and post relationships from the server via basic CRUD operations and other HTTP requests.",
@@ -28,11 +51,26 @@ const projects = [
         stack: "Java, SpringBoot, JPA, PostgreSQL, PGAdmin, Postman, Git, Eclipse, Intellij, Maven",
         gitHub: "https://github.com/PrimsCode/TwitType",
         link: null,
-        img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
+        img: mockTwitterApiImg,
         video: null,
     },
+    // {
+    //     id: 2,
+    //     title: "React Jobly",
+    //     description: [
+    //         "Implemented a RESTful Web Service with various endpoints for creating, modifying, and transferring customizable user information, Twitter posts, and post relationships from the server via basic CRUD operations and other HTTP requests.",
+    //         "Developed a database schema/ERD supported by PostgreSQL in PGAdmin in collaboration with other developers.",
+    //         "Utilized SpringBoot and JPA to program controllers and services that handle HTTP requests, backend validation, logic, and convert data between the API and its database models",
+    //         "Tested, troubleshot, and debugged API functionality in Postman and Intellij until project requirements were achieved."
+    //     ],
+    //     stack: "JavaScript, React, Material UI, Node J",
+    //     gitHub: "https://github.com/PrimsCode/jobly-frontend",
+    //     link: "https://github.com/PrimsCode/jobly-backend",
+    //     img: mockTwitterApiImg,
+    //     video: null,
+    // },
     {
-        id: 3,
+        id: 4,
         title: "Cupcake API",
         description: [
             "Utilized Python, Flask, and SQL Alchemy to program controllers and services that handle HTTP requests, backend validation, logic, and convert data between the API and its database models",
@@ -45,10 +83,10 @@ const projects = [
         gitHub: "https://github.com/PrimsCode/cupcake-api",
         link: null,
         img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
-        video: "https://drive.google.com/uc?export=download&id=1V4GRtNr1MfMlIuFOyzhfzfjMcetUzfH2",
+        video: cupcakeApiVid,
     },
     {
-        id: 4,
+        id: 5,
         title: "Snack Or Booze",
         description: [
             "Utilized Json-Server to handle backend data",
@@ -59,10 +97,10 @@ const projects = [
         gitHub: "https://github.com/PrimsCode/assessment_9/",
         link: null,
         img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
-        video: "https://drive.google.com/uc?export=download&id=10xmL02wilFg-ns0ClY2BqUJq_828D3kn",
+        video: snackOrBoozeVid,
     },
     {
-        id: 5,
+        id: 6,
         title: "Jeopardy Game",
         description: [
             "Developed the frontend using JavaScript and jquery",
@@ -72,7 +110,7 @@ const projects = [
         gitHub: "https://github.com/PrimsCode/jeopardy_game",
         link: null,
         img: "https://blog.hubbado.com/content/images/size/w2000/2020/01/projectmanager.png",
-        video: "https://drive.google.com/uc?export=download&id=11_DgAr2Byw2m-T4yheVRK8ITAHRhqcUs",
+        video: jeopardyVid,
     },
 ]
 

@@ -10,7 +10,7 @@ const Header = ({ primaData }) => {
     const getHeaderOptions = () => {
         return (
             TOTAL_SCREENS.map((screen) => (
-                <Link to={screen.id} smooth={true} offset={100} duration={100}>
+                <Link to={screen.id} smooth={true} offset={50} duration={100}>
                     <Button color="info" id={screen.screen_name} key={screen.screen_name}>
                         {screen.screen_name}
                     </Button>

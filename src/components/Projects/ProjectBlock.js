@@ -5,7 +5,7 @@ import "../../Portfolio.css"
 
 const ProjectBlock = ({ project }) => {
 
-    const cardStyle = { maxWidth:"480px", minHeight:"300px", margin: 10}
+    const cardStyle = { minWidth:"450px", maxWidth:"450px", minHeight:"300px", margin: 10}
 
     return (
         <Grid container rowSpacing={2} justifyContent="center" alignItems="center" marginTop={2} padding={2}>
@@ -19,14 +19,14 @@ const ProjectBlock = ({ project }) => {
                 <Grid container className="project-block" >
 
                     <Grid item xs={12} sm={12} md={6}>
-                        <Card style={cardStyle}>
+                        <Card style={cardStyle} >
                             {project.video ?
                                 <video width="450" controls="controls">
                                     <source src={project.video} type="video/mp4">
                                     </source>
                                 </video>
                                 :
-                                <img src={project.img} alt={project.title} height="280"></img>
+                                <img src={project.img} alt={project.title} height="300px"></img>
                             }
                         </Card>
                     </Grid>
