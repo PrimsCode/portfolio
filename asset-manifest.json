@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.742f35ac.css",
-    "main.js": "/portfolio/static/js/main.9400e1a6.js",
+    "main.js": "/portfolio/static/js/main.5e534fd7.js",
     "static/media/whats-for-dinner.mp4": "/portfolio/static/media/whats-for-dinner.c06b67aae0485872aca7.mp4",
     "static/media/snack-or-booze.mp4": "/portfolio/static/media/snack-or-booze.50076ae3a0f5283154be.mp4",
     "static/media/cupcake-api.mp4": "/portfolio/static/media/cupcake-api.80a843679ce3b6386d0e.mp4",
@@ -11,10 +11,10 @@
     "static/media/CookSlack.png": "/portfolio/static/media/CookSlack.de6dbb43651665a12e2a.png",
     "index.html": "/portfolio/index.html",
     "main.742f35ac.css.map": "/portfolio/static/css/main.742f35ac.css.map",
-    "main.9400e1a6.js.map": "/portfolio/static/js/main.9400e1a6.js.map"
+    "main.5e534fd7.js.map": "/portfolio/static/js/main.5e534fd7.js.map"
   },
   "entrypoints": [
     "static/css/main.742f35ac.css",
-    "static/js/main.9400e1a6.js"
+    "static/js/main.5e534fd7.js"
   ]
 }
