@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.742f35ac.css",
-    "main.js": "/portfolio/static/js/main.5e534fd7.js",
+    "main.js": "/portfolio/static/js/main.3b07d3c5.js",
     "static/media/whats-for-dinner.mp4": "/portfolio/static/media/whats-for-dinner.c06b67aae0485872aca7.mp4",
     "static/media/snack-or-booze.mp4": "/portfolio/static/media/snack-or-booze.50076ae3a0f5283154be.mp4",
     "static/media/cupcake-api.mp4": "/portfolio/static/media/cupcake-api.80a843679ce3b6386d0e.mp4",
+    "static/media/Wishlist.png": "/portfolio/static/media/Wishlist.5a6d67c6330cdd0e195c.png",
     "static/media/jeopardy.mp4": "/portfolio/static/media/jeopardy.b63c2a8a6cbeb5a13b18.mp4",
     "static/media/prima-portfolio-pic.png": "/portfolio/static/media/prima-portfolio-pic.10ea894427e0f1bdafb6.png",
     "static/media/Mock-Twitter_Api.png": "/portfolio/static/media/Mock-Twitter_Api.9702cc18a35793d5140b.png",
     "static/media/CookSlack.png": "/portfolio/static/media/CookSlack.de6dbb43651665a12e2a.png",
     "index.html": "/portfolio/index.html",
     "main.742f35ac.css.map": "/portfolio/static/css/main.742f35ac.css.map",
-    "main.5e534fd7.js.map": "/portfolio/static/js/main.5e534fd7.js.map"
+    "main.3b07d3c5.js.map": "/portfolio/static/js/main.3b07d3c5.js.map"
   },
   "entrypoints": [
     "static/css/main.742f35ac.css",
-    "static/js/main.5e534fd7.js"
+    "static/js/main.3b07d3c5.js"
   ]
 }
