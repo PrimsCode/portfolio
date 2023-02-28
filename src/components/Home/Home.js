@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Typography, Button, IconButton } from '@mui/material';
 import portfolioPic from "../../assets/prima-portfolio-pic.png";
 import { LinkedIn, GitHub, Email } from '@mui/icons-material';
+import { Link } from "react-scroll";
 import "../../Portfolio.css"
 
 const Home = (props) => {
@@ -18,7 +19,9 @@ const Home = (props) => {
                 </Grid>
 
                 <Grid item sx={12} margin={2}>
-                    <IconButton href="/contact-me"><Email /></IconButton>
+                    <Link to="contact-form" smooth={true} offset={50} duration={100}>
+                        <IconButton><Email /></IconButton>
+                    </Link>
                     <IconButton href={props.data.html_url} target="_blank" rel="noreferrer"><GitHub /></IconButton>
                     <IconButton href={props.data.blog} target="_blank" rel="noreferrer"><LinkedIn /></IconButton>
                 </Grid>

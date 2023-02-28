@@ -1,3 +1,4 @@
+import wishlistImg from "../../assets/Wishlist.png"
 import mockTwitterApiImg from "../../assets/Mock-Twitter_Api.png";
 import cookSlackImg from "../../assets/CookSlack.png";
 import cupcakeApiVid from "../../assets/cupcake-api.mp4";
@@ -9,6 +10,22 @@ import whatsForDinnerVid from "../../assets/whats-for-dinner.mp4";
 const projects = [
     {
         id: 1,
+        title: "Wishlist",
+        description: [
+            "Created frontend with React and Material UI",
+            "Designed and implemented a database schema with PostgresSQL",
+            "Used Node.js and Express to implement a RESTful web service with various endpoints to support the application’s features from the server via CRUD operations and other HTTP requests.",
+            "Performed authentication services and password security through hashing passwords with bcrypt",
+            "Handled different error types from the client and server sides to ensure the application ran smoothly",
+        ],
+        stack: "JavaScript, React, Material UI, Node.js, Express, PostgreSQL, Postman Git, VSCode",
+        gitHub: "https://github.com/PrimsCode/wishlist",
+        link: 'https://wishlist-vrmv.onrender.com/',
+        img: wishlistImg,
+        video: null
+    },
+    {
+        id: 2,
         title: "What's For Dinner?",
         description: [
             "A full-stack web application to help you plan your dinner menu with printable recipes and shopping lists.",
@@ -25,7 +42,7 @@ const projects = [
         video: whatsForDinnerVid
     },
     {
-        id: 2,
+        id: 3,
         title: "Cook Slack",
         description: [
             "Outlined tasks, data structures, and endpoints documentation for the project allowing transparency between the frontend team and backend team workflow.",
@@ -40,7 +57,7 @@ const projects = [
         video: null,
     },
     {
-        id: 3,
+        id: 4,
         title: "Mock Twitter Social Media API",
         description: [
             "Implemented a RESTful Web Service with various endpoints for creating, modifying, and transferring customizable user information, Twitter posts, and post relationships from the server via basic CRUD operations and other HTTP requests.",
@@ -70,7 +87,7 @@ const projects = [
     //     video: null,
     // },
     {
-        id: 4,
+        id: 5,
         title: "Cupcake API",
         description: [
             "Utilized Python, Flask, and SQL Alchemy to program controllers and services that handle HTTP requests, backend validation, logic, and convert data between the API and its database models",
@@ -86,7 +103,7 @@ const projects = [
         video: cupcakeApiVid,
     },
     {
-        id: 5,
+        id: 6,
         title: "Snack Or Booze",
         description: [
             "Utilized Json-Server to handle backend data",
@@ -100,7 +117,7 @@ const projects = [
         video: snackOrBoozeVid,
     },
     {
-        id: 6,
+        id: 7,
         title: "Jeopardy Game",
         description: [
             "Developed the frontend using JavaScript and jquery",
